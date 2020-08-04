@@ -1,0 +1,159 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:CP C?
+U 1 1 5F296AB3
+P 2500 2200
+F 0 "C?" H 2618 2246 50  0000 L CNN
+F 1 "6.8uF_400V_Electrolytic" H 2618 2155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 2538 2050 50  0001 C CNN
+F 3 "~" H 2500 2200 50  0001 C CNN
+	1    2500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5F296DBF
+P 1500 2200
+F 0 "C2" H 1615 2246 50  0000 L CNN
+F 1 "1uF_400V_Polyester" H 1615 2155 50  0000 L CNN
+F 2 "" H 1538 2050 50  0001 C CNN
+F 3 "~" H 1500 2200 50  0001 C CNN
+	1    1500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F297900
+P 1500 2750
+F 0 "C1" H 1615 2796 50  0000 L CNN
+F 1 "220nF_400V_Polyester" H 1615 2705 50  0000 L CNN
+F 2 "" H 1538 2600 50  0001 C CNN
+F 3 "~" H 1500 2750 50  0001 C CNN
+	1    1500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5F2984DE
+P 1550 3600
+F 0 "D?" V 1504 3680 50  0000 L CNN
+F 1 "D_ALT" V 1595 3680 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 1550 3600 50  0001 C CNN
+F 3 "~" H 1550 3600 50  0001 C CNN
+	1    1550 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5F2986FE
+P 2000 3600
+F 0 "D?" V 1954 3680 50  0000 L CNN
+F 1 "D_ALT" V 2045 3680 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 2000 3600 50  0001 C CNN
+F 3 "~" H 2000 3600 50  0001 C CNN
+	1    2000 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5F298A12
+P 2400 3600
+F 0 "D?" V 2354 3680 50  0000 L CNN
+F 1 "D_ALT" V 2445 3680 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 2400 3600 50  0001 C CNN
+F 3 "~" H 2400 3600 50  0001 C CNN
+	1    2400 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_ALT D?
+U 1 1 5F298B6A
+P 2850 3600
+F 0 "D?" V 2804 3680 50  0000 L CNN
+F 1 "D_ALT" V 2895 3680 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 2850 3600 50  0001 C CNN
+F 3 "~" H 2850 3600 50  0001 C CNN
+	1    2850 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED_ALT D?
+U 1 1 5F29941E
+P 1550 4200
+F 0 "D?" V 1497 4280 50  0000 L CNN
+F 1 "LED_ALT" V 1588 4280 50  0000 L CNN
+F 2 "LED_THT:LED_D3.0mm" H 1550 4200 50  0001 C CNN
+F 3 "~" H 1550 4200 50  0001 C CNN
+	1    1550 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F29B09B
+P 2850 4700
+F 0 "R?" H 2918 4746 50  0000 L CNN
+F 1 "100k" H 2918 4655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2890 4690 50  0001 C CNN
+F 3 "~" H 2850 4700 50  0001 C CNN
+	1    2850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 5F29AE02
+P 2400 4700
+F 0 "R?" H 2468 4746 50  0000 L CNN
+F 1 "390k" H 2468 4655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2440 4690 50  0001 C CNN
+F 3 "~" H 2400 4700 50  0001 C CNN
+	1    2400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5F29AC14
+P 2000 4700
+F 0 "R2" H 2068 4746 50  0000 L CNN
+F 1 "390k" H 2068 4655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2040 4690 50  0001 C CNN
+F 3 "~" H 2000 4700 50  0001 C CNN
+	1    2000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5F299F5C
+P 1550 4700
+F 0 "R1" H 1618 4746 50  0000 L CNN
+F 1 "390k" H 1618 4655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1590 4690 50  0001 C CNN
+F 3 "~" H 1550 4700 50  0001 C CNN
+	1    1550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_SPDT SW?
+U 1 1 5F29E74E
+P 3950 3250
+F 0 "SW?" H 3950 3535 50  0000 C CNN
+F 1 "SW_Push_SPDT" H 3950 3444 50  0000 C CNN
+F 2 "" H 3950 3250 50  0001 C CNN
+F 3 "~" H 3950 3250 50  0001 C CNN
+	1    3950 3250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

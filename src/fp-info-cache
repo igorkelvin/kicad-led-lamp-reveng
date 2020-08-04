@@ -1,4 +1,4 @@
-18638429869588023
+18640026440421023
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82054,6 +82054,13 @@ C_Polyester_21.80mm_7.10mm
 2
 2
 igorkelvin
+DIODE_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
+0
+2
+2
+igorkelvin
 Logo_Cefet
 
 
@@ -82079,8 +82086,8 @@ Switch_4-Way
 
 
 0
-0
-0
+4
+4
 igorkelvin
 TQFP-32_7x7mm_P0.8mm
 32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)

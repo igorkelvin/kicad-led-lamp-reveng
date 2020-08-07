@@ -10,4 +10,6 @@ You may find the pdf version of the ![schematics](./extra/kicad-led-lamp-reveng-
 
 ![kicad arduino nano reveng back](./extra/kicad-led-lamp-reveng-back.jpg)
 
-Used a *Pelicano LED* from LLUM for reference, you can check it ![at this catalog](http://www.bronzearte.com.br/marketing/catalogo.pdf#page=59).
+Used a *Pelicano LED* from LLUM for reference, you can check it [at this catalog][catalog].
+
+[catalog]: http://www.bronzearte.com.br/marketing/catalogo.pdf#page=59
